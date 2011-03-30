@@ -15,7 +15,10 @@ $user_item = $ui->get_user_item(1);
 
 $smarty->assign("url", $url);
 $smarty->assign("user_item", $user_item);
-$smarty->display('village.tpl');
-
+if($_GET['action'] === "add") {
+    $smarty->display('village_add.tpl');
+} else {
+    $smarty->display('village.tpl');
+}
 
 ?>
