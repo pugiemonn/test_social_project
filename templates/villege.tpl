@@ -6,5 +6,6 @@
 main    
 villege
 </div>
+<img src="http://pugiemonn.dyndns.tv/images/free_high_res_texture_95.jpg" width="640" height="400" />
 
 {include file="footer.tpl"}
