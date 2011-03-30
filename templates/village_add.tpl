@@ -7,7 +7,7 @@
 {section name="ui" loop=$user_item}
 <p>{$user_item[ui].name}を{$user_item[ui].num}つ</p>
     {if $user_item[ui].category_id == 2}
-    <a href="{$url}/item_confirm.php?item_id={$user_item[ui].id}">{$user_item[ui].name}をつくる</a>
+    <a href="{$url}/village.php?item_id={$user_item[ui].id}">{$user_item[ui].name}をつくる</a>
     {/if}
 {/section}
 </div>

@@ -7,10 +7,14 @@ $smarty = new Smarty;
 
 //$smarty->force_compile = true;
 $smarty->debugging = true;
-$smarty->caching = true;
-$smarty->cache_lifetime = 1;
+#$smarty->caching = true;
+#$smarty->cache_lifetime = 1;
 
 $ui = new UserItem();
+
+if($_GET['item_id']) {
+$ui->add_user_item(1, $_GET['item_id']);
+}
 $user_item = $ui->get_user_item(1);
 
 $smarty->assign("url", $url);
