@@ -1,5 +1,6 @@
 <?php
-header("Location: villege.php");
+include'villege.php';
+//header("Location: villege.php");
 //header("Location: http://pugiemonn.dyndns.tv/villege.php");
 /*
 require('libs/Smarty.class.php');
