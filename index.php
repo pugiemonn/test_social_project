@@ -1,4 +1,7 @@
 <?php
+header("Location: villege.php");
+//header("Location: http://pugiemonn.dyndns.tv/villege.php");
+/*
 require('libs/Smarty.class.php');
 
 $smarty = new Smarty;
@@ -22,5 +25,5 @@ $smarty->assign("option_output", array("New York","Nebraska","Kansas","Iowa","Ok
 $smarty->assign("option_selected", "NE");
 
 $smarty->display('index.tpl');
-
+*/
 ?>
