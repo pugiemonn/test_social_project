@@ -1,5 +1,5 @@
 <?php
-include'villege.php';
+include('village.php');
 //header("Location: villege.php");
 //header("Location: http://pugiemonn.dyndns.tv/villege.php");
 /*
