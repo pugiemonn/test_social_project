@@ -1,3 +1,43 @@
+*, body {
+    margin : 0 ;
+    padding : 0 ;
+}
+
+#global-navi {
+    
+}
+
 #container {
     width : 760px ;
 }
+
+#footer {
+
+}
+
+a  {
+    color : #105CB6;
+}
+
+a:hover {
+    color : #000033;
+}
+
+ul {
+    margin : 0 ;
+    padding : 0 ;
+}
+
+.left {
+    float : left ;
+}
+
+.right {
+    float : right ;
+}
+
+.overflow {
+    overflow: hidden ;
+}
+
+
