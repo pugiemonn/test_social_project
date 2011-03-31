@@ -3,8 +3,18 @@
     padding : 0 ;
 }
 
-#global-navi {
-    
+#global-navi ul {
+    border-top : solid 1px #EEE ;
+    border-bottom : solid 1px #EEE ;
+    border-right : solid 1px #EEE ;
+}
+
+#global-navi ul li {
+    width : 100px ;
+    height : 60px ;
+    line-height : 60px ;
+    text-align : center ;
+    border-left : solid 1px #EEE;
 }
 
 #container {
